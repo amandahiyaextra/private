@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" minBufferTime="PT2S" type="static" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" mediaPresentationDuration="PT2923.199951171875S">
+    <Period id="0">
+        <AdaptationSet id="0" contentType="video" maxWidth="1920" maxHeight="1088" frameRate="25/1" subsegmentAlignment="true">
+            <Representation id="4" bandwidth="100000" codecs="avc1.4d400c" mimeType="video/mp4" sar="1:1" width="320" height="176">
+                <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="7d003ddf-c37f-51a1-8e7d-253cf4c68145"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                    <cenc:pssh>AAAALXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAA0iBSAAIGRmSOPclZsG</cenc:pssh>
+                </ContentProtection>
+                <BaseURL>2047e210e47111e9bc7d0ff2da537491_132_v.mp4?hdntl=exp=1731990090~acl=/*~id=48a1c1042bae4b7f850d77fe41dd04c6~data=hdntl~hmac=f6acd5e9394f5da3b64433af00a752e43b63611904c1d8350ff6126498c72c00</BaseURL>
+                <SegmentBase indexRange="1062-4609" timescale="25">
+                    <Initialization range="0-1061"/>
+                </SegmentBase>
+            </Representation>
+            <Representation id="6" bandwidth="200000" codecs="avc1.4d4015" mimeType="video/mp4" sar="1:1" width="480" height="272">
+                <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="7d003ddf-c37f-51a1-8e7d-253cf4c68145"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                    <cenc:pssh>AAAALXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAA0iBSAAIGRmSOPclZsG</cenc:pssh>
+                </ContentProtection>
+                <BaseURL>2047e210e47111e9bc7d0ff2da537491_248_v.mp4?hdntl=exp=1731990090~acl=/*~id=48a1c1042bae4b7f850d77fe41dd04c6~data=hdntl~hmac=f6acd5e9394f5da3b64433af00a752e43b63611904c1d8350ff6126498c72c00</BaseURL>
+                <SegmentBase indexRange="1062-4609" timescale="25">
+                    <Initialization range="0-1061"/>
+                </SegmentBase>
+            </Representation>
+            <Representation id="10" bandwidth="400000" codecs="avc1.4d4015" mimeType="video/mp4" sar="1:1" width="480" height="272">
+                <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="7d003ddf-c37f-51a1-8e7d-253cf4c68145"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                    <cenc:pssh>AAAALXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAA0iBSAAIGRmSOPclZsG</cenc:pssh>
+                </ContentProtection>
+                <BaseURL>2047e210e47111e9bc7d0ff2da537491_464_v.mp4?hdntl=exp=1731990090~acl=/*~id=48a1c1042bae4b7f850d77fe41dd04c6~data=hdntl~hmac=f6acd5e9394f5da3b64433af00a752e43b63611904c1d8350ff6126498c72c00</BaseURL>
+                <SegmentBase indexRange="1062-4609" timescale="25">
+                    <Initialization range="0-1061"/>
+                </SegmentBase>
+            </Representation>
+            <Representation id="12" bandwidth="600000" codecs="avc1.4d401e" mimeType="video/mp4" sar="1:1" width="640" height="368">
+                <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="7d003ddf-c37f-51a1-8e7d-253cf4c68145"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                    <cenc:pssh>AAAALXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAA0iBSAAIGRmSOPclZsG</cenc:pssh>
+                </ContentProtection>
+                <BaseURL>2047e210e47111e9bc7d0ff2da537491_696_v.mp4?hdntl=exp=1731990090~acl=/*~id=48a1c1042bae4b7f850d77fe41dd04c6~data=hdntl~hmac=f6acd5e9394f5da3b64433af00a752e43b63611904c1d8350ff6126498c72c00</BaseURL>
+                <SegmentBase indexRange="1066-4613" timescale="25">
+                    <Initialization range="0-1065"/>
+                </SegmentBase>
+            </Representation>
+            <Representation id="14" bandwidth="800000" codecs="avc1.4d401f" mimeType="video/mp4" sar="1:1" width="896" height="512">
+                <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="79095f49-8e59-5322-8987-a0b20dcf5a15"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                    <cenc:pssh>AAAALXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAA0iBSAAIGRmSOPclZsG</cenc:pssh>
+                </ContentProtection>
+                <BaseURL>2047e210e47111e9bc7d0ff2da537491_896_v.mp4?hdntl=exp=1731990090~acl=/*~id=48a1c1042bae4b7f850d77fe41dd04c6~data=hdntl~hmac=f6acd5e9394f5da3b64433af00a752e43b63611904c1d8350ff6126498c72c00</BaseURL>
+                <SegmentBase indexRange="1066-4613" timescale="25">
+                    <Initialization range="0-1065"/>
+                </SegmentBase>
+            </Representation>
+            <Representation id="16" bandwidth="1200000" codecs="avc1.4d401f" mimeType="video/mp4" sar="1:1" width="1280" height="720">
+                <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="79095f49-8e59-5322-8987-a0b20dcf5a15"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                    <cenc:pssh>AAAALXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAA0iBSAAIGRmSOPclZsG</cenc:pssh>
+                </ContentProtection>
+                <BaseURL>2047e210e47111e9bc7d0ff2da537491_1328_v.mp4?hdntl=exp=1731990090~acl=/*~id=48a1c1042bae4b7f850d77fe41dd04c6~data=hdntl~hmac=f6acd5e9394f5da3b64433af00a752e43b63611904c1d8350ff6126498c72c00</BaseURL>
+                <SegmentBase indexRange="1064-4611" timescale="25">
+                    <Initialization range="0-1063"/>
+                </SegmentBase>
+            </Representation>
+            <Representation id="18" bandwidth="2300000" codecs="avc1.4d401f" mimeType="video/mp4" sar="1:1" width="1280" height="720">
+                <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="79095f49-8e59-5322-8987-a0b20dcf5a15"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                    <cenc:pssh>AAAALXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAA0iBSAAIGRmSOPclZsG</cenc:pssh>
+                </ContentProtection>
+                <BaseURL>2047e210e47111e9bc7d0ff2da537491_2492_v.mp4?hdntl=exp=1731990090~acl=/*~id=48a1c1042bae4b7f850d77fe41dd04c6~data=hdntl~hmac=f6acd5e9394f5da3b64433af00a752e43b63611904c1d8350ff6126498c72c00</BaseURL>
+                <SegmentBase indexRange="1064-4611" timescale="25">
+                    <Initialization range="0-1063"/>
+                </SegmentBase>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet id="1" contentType="audio">
+            <Representation id="11" bandwidth="64000" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+                <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="e40412d7-4191-59db-9599-cd1b4ee43b3f"/>
+                <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+                    <cenc:pssh>AAAALXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAA0iBSAAIGRmSOPclZsG</cenc:pssh>
+                </ContentProtection>
+                <BaseURL>2047e210e47111e9bc7d0ff2da537491_464_a.mp4?hdntl=exp=1731990090~acl=/*~id=48a1c1042bae4b7f850d77fe41dd04c6~data=hdntl~hmac=f6acd5e9394f5da3b64433af00a752e43b63611904c1d8350ff6126498c72c00</BaseURL>
+                <SegmentBase indexRange="942-4489" timescale="48000">
+                    <Initialization range="0-941"/>
+                </SegmentBase>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+</MPD>
